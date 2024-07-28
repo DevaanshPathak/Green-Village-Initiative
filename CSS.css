@@ -1,4 +1,6 @@
-
+body{
+  font-family: cursive;
+}
 .I1{
     background-image: url(assets/images/bgm.jpeg);
     font-family: cursive;
