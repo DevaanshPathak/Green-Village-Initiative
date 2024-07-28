@@ -1,7 +1,10 @@
 
 .I1{
-    background-color:  chartreuse;
+    background-image: url(assets/images/bgm.jpeg);
     font-family: cursive;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
 }
 
 button {
@@ -68,7 +71,7 @@ button {
    }
 
    .I2{
-    background-color: greenyellow;
+    background-image: linear-gradient(yellow,lightgreen);
    }
 
    dt{
@@ -86,7 +89,7 @@ button {
    }
 
    .I3{
-    background-color: rgb(170, 250, 113);
+    background-image: linear-gradient(lightgreen,orange);
    }
    a{
     color: white;
@@ -97,6 +100,7 @@ button {
    }
 
    .input__container {
+    float: right;
     position: relative;
     background: rgba(255, 255, 255, 0.664);
     padding: 10px 15px;
@@ -108,7 +112,7 @@ button {
     max-width: 300px;
     transition: transform 400ms;
     transform-style: preserve-3d;
-    transform: rotateX(15deg) rotateY(-20deg);
+    margin-right: 2%;
     perspective: 500px;
   }
   
@@ -142,6 +146,7 @@ button {
     align-items: center;
     border-radius: 12px;
     padding: 5px;
+    border-top: 25px;
   }
   
   .input__button__shadow:hover {
